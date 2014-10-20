@@ -1,3 +1,9 @@
+
+
+[Project description](#Project description)
+
+[Web site analysis](#Web site analysis)
+
 ## Intro
 
 Here in EastBanc technologies we work on very different and usually very interesting
@@ -10,16 +16,16 @@ Exactly same thought came to my mind when I started working on... building QA fr
 
 ## Project description
 
-This is a different type of QA frameworks you than might thought. 
+This is a different type of QA frameworks you than might thought.
 We were not going to crete a killer for JUnit nor Mockito nor even Cucumber.  
 In two words the problem we needed to solve could be described like:
->"Here is our main web site, we need to make sure users always have great experience with it. 
-> Pages are transferred for the sane amount of time, 
+>"Here is our main web site, we need to make sure users always have great experience with it.
+> Pages are transferred for the sane amount of time,
 > they are correctly rendered and rendering is fast, layout is correct for all typical resolutions and so forth... for typical web browsers and mobile platforms"
 
-Basically we needed to build automated acceptance testing framework, 
-integrate it into customers continuous integration process and provide 
-certain level of transparency of our work to product owner: 
+Basically we needed to build automated acceptance testing framework,
+integrate it into customers continuous integration process and provide
+certain level of transparency of our work to product owner:
   the ability to review test cases, combine some of them into a test plans and run on the selected platfrom/s;
 
 The initial plan was:
@@ -81,7 +87,7 @@ Basically Selenium is set of three components: web driver, node and hub.
 - **Hub** - organizes nodes into cluster; collect information about nodes capabilities and manages requests between nodes.
 
 **Picture 1**. Simple two-nodes selenium cluster
-![Simple two-nodes selenium cluster](https://lh4.googleusercontent.com/5B8pYJiBBdJHawAwHDogOOxHOCddIleiqu6YlLHXGG5xyZU5X-E9LOv2bQs-T_N-VjOEU-Upnww=w1770-h843)
+![Simple two-nodes selenium cluster](img/selenium.png)
 
 
 ### General automation
